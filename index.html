@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
     <style>
       .poppins-regular {
         font-family: "Poppins", sans-serif;
@@ -16,13 +17,18 @@
         font-style: normal;
       }
     </style>
+
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <section>
       <div class="pt-10 pl-[100px] pr-[100px]">
         <header class="flex">
-          <img src="./assets/2,696.svg" alt="LOGO" class="pr-[584px]" />
+          <img
+            src="./assets/2,696.svg"
+            alt="LOGO"
+            class="pr-[584px] cursor-pointer"
+          />
           <div class="flex gap-10 items-center">
             <p class="text-[#7D97F4]">Home</p>
             <p>Contact Us</p>
@@ -34,7 +40,7 @@
             </button>
           </div>
         </header>
-        <section class="flex mt-[100px] gap-10">
+        <section class="flex mt-[90px] gap-10">
           <div>
             <p class="text-[50px] leading-[56px] mt-[100px]">
               We are creating wealth
@@ -51,7 +57,6 @@
             <p class="text-[24px] leading-[36px]">
               convenience for its customers.
             </p>
-
             <button
               class="rounded-lg px-4 py-4 text-white bg-[#7D97F4] hover:bg-blue-600 w-100 mt-10"
             >
@@ -71,7 +76,8 @@
             />
           </div>
         </section>
-        <section class="mt-[100px]">
+
+        <section class="mt-[90px]">
           <p class="font-bold text-[42px] leading-[40px]">
             Are you looking for a quick
           </p>
@@ -81,7 +87,7 @@
           <p class="font-bold text-[42px] leading-[40px] mt-5 text-[#7D97F4]">
             24 hours
           </p>
-          <div class="flex mt-[100px]">
+          <div class="flex mt-[90px]">
             <div class="flex">
               <img
                 class="mt-10 mr-[50px]"
@@ -106,7 +112,7 @@
                     documents we verify you and move you to the next step
                   </p>
                 </div>
-                <div class="mt-10">
+                <div class="mt-10 opacity-30">
                   <p class="font-bold text-[32px] leading-[40px]">Get funded</p>
                   <p>
                     After evaluation you will get your loan, all of this will
@@ -123,8 +129,9 @@
             />
           </div>
         </section>
-        <div class="flex">
-          <div class="flex">
+
+        <section class="flex mt-[90px]">
+          <div class="flex mr-10">
             <div class="mr-10">
               <div
                 class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden w-[278px] h-[302px]"
@@ -247,7 +254,7 @@
             >
               We guarantee
             </button>
-            <p class="font-bold text-[40px]">
+            <p class="font-bold text-[40px] mt-10">
               Easy financial services
               <span class="text-[#7D97F4]">wherever you go</span>
             </p>
@@ -257,9 +264,10 @@
               every step of the way
             </p>
           </div>
-        </div>
+        </section>
       </div>
-      <div class="flex bg-blue-500 mt-10 p-10 text-white">
+
+      <div class="flex bg-blue-500 mt-[100px] p-10 text-white">
         <div class="m-auto flex gap-20">
           <div class="w-[228px] h-[126px]">
             <p class="text-[40px] font-bold">40+</p>
@@ -279,9 +287,10 @@
         </div>
       </div>
     </section>
+
     <section class="p-[100px]">
       <div class="flex">
-        <div class="mt-[100px]">
+        <div class="">
           <button
             class="px-4 py-2 rounded-full bg-blue-100 text-blue-500 hover:bg-blue-200 hover:text-white"
           >
@@ -394,6 +403,7 @@
         <img src="./assets/Consulting-rafiki 1.svg" alt="career progress" />
       </div>
     </section>
+
     <section class="text-white bg-[#5E88F3] p-[100px]">
       <div class="flex">
         <div class="flex-col">
@@ -420,6 +430,7 @@
         <img src="./assets/branch.svg" alt="branch" />
       </div>
     </section>
+
     <section class="p-[100px]">
       <div class="flex flex-col items-center justify-center">
         <p class="text-[40px] font-bold items-center">Latest news</p>
@@ -499,23 +510,43 @@
         </div>
       </div>
     </section>
+
     <footer class="text-white bg-[#5E88F3] p-[100px]">
       <div class="flex justify-around items-center">
-        <img src="./assets/logo.svg" alt="logo" class="mr-[300px]" />
+        <img
+          src="./assets/logo.svg"
+          alt="logo"
+          class="mr-[300px] cursor-pointer"
+        />
         <div class="flex gap-10">
-          <p>Contact Us</p>
-          <p>About Us</p>
-          <p>Services</p>
-          <p>Our Works</p>
+          <p class="cursor-pointer">Contact Us</p>
+          <p class="cursor-pointer">About Us</p>
+          <p class="cursor-pointer">Services</p>
+          <p class="cursor-pointer">Our Works</p>
         </div>
         <div class="flex ml-auto gap-10">
-          <img src="./assets/Twitter.svg" alt="twitter" />
-          <img src="./assets/Instagram.svg" alt="instagram" />
+          <img
+            class="cursor-pointer"
+            src="./assets/Twitter.svg"
+            alt="twitter"
+          />
+          <img
+            class="cursor-pointer"
+            src="./assets/Instagram.svg"
+            alt="instagram"
+          />
         </div>
       </div>
       <div class="flex justify-center items-center mt-10">
-        © 2021 reventtechnologies. All rights reserved
+        © <span id="currentYearDiv"></span> reventtechnologies. All rights
+        reserved
       </div>
     </footer>
+
+    <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById("currentYearDiv").textContent =
+        currentYear.toString() + " ";
+    </script>
   </body>
 </html>
